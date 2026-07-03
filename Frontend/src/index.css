@@ -1,0 +1,36 @@
+:root {
+    --bg-primary: #212121;
+    --bg-secondary: #2f2f2f;
+    --bg-hover: #3a3a3a;
+
+    --text-primary: #ececec;
+    --text-secondary: #a1a1aa;
+
+    --border-color: #444654;
+
+    --input-bg: #2f2f2f;
+    --input-hover: #3a3a3a;
+
+    --card-bg: #2f2f2f;
+}
+
+[data-theme="light"] {
+    --bg-primary: #ffffff;
+    --bg-secondary: #f9f9fb;
+    --bg-hover: #f1f3f5;
+    --text-primary: #1f2937;
+    --text-secondary: #6b7280;
+    --border-color: #d1d5db;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+* {
+    color: inherit;
+}

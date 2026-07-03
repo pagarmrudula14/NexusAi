@@ -1,0 +1,142 @@
+.chats {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    overflow-y: auto;
+    padding: 20px 0;
+}
+
+.userDiv {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9rem;
+}
+
+
+.gptDiv {
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.userMessage {
+    background-color: #323232;
+    padding: 10px 20px;
+    border-radius: 14px;
+    margin-left: 15rem;
+    max-width: 500px;
+    width: fit-content;
+}
+
+.hljs {
+    border-radius: 14px !important;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+
+.chats::-webkit-scrollbar {
+    width: 6px;
+}
+
+.chats::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.chats::-webkit-scrollbar-thumb {
+    background: #4a4a4a;
+    border-radius: 10px;
+}
+
+.chats::-webkit-scrollbar-thumb:hover {
+    background: #666;
+}
+
+.welcomeContainer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    height:100%;
+    overflow:hidden;   /* ADD THIS */
+}
+
+.welcomeLogo {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #10a37f, #34d399);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.welcomeTitle{
+    font-size:34px;
+    margin-bottom:5px;
+}
+
+.welcomeTitle span{
+    color:#10a37f;
+}
+
+.welcomeSubTitle{
+    margin-top:4px;
+    font-size:18px;
+}
+
+.welcomeText{
+    margin-top:6px;
+    margin-bottom:25px;
+    font-size:16px;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+
+.suggestionGrid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+    margin-top:30px;
+}
+
+.suggestionCard{
+    padding:18px;
+    width:220px;
+}
+
+
+.suggestionCard:hover{
+    transform:translateY(-3px);
+    background:var(--bg-hover);
+    border-color:#10a37f;
+}
+
+.suggestionCard span{
+    font-size:18px;
+}
+
+.suggestionCard h3{
+    font-size:15px;
+    margin:6px 0 2px;
+}
+
+.suggestionCard p{
+    font-size:12px;
+    line-height:1.3;
+}
