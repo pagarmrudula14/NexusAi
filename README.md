@@ -25,16 +25,26 @@ NexusAI addresses these challenges by providing an interactive, responsive, and 
 
 ---
 
+## 🌐 Live Demo
+
+### Frontend
+🔗 https://nexusai-frontend-iitf.onrender.com
+
+### Backend
+🔗  https://nexusai-backend-za84.onrender.com
+
+---
+
 ## 💡 Key Highlights
 
-* ✅ 30+ reusable React components** for a modular and maintainable architecture.
-* ✅ 10+ core features** integrated into a single AI platform.
+* ✅ 30+ reusable React components for a modular and maintainable architecture.
+* ✅ 10+ core features integrated into a single AI platform.
 * ✅ 100% responsive interface** optimized for desktop .
 * ✅ Secure user authentication** using Clerk.
 * ✅ Markdown & syntax highlighting** for clean AI-generated code responses.
 * ✅ Dark & Light mode** for improved accessibility and user experience.
-* ✅ Persistent chat history** for seamless conversation continuity.
-* ✅ Typing animation and loading states** to create a natural conversational experience.
+* ✅ Persistent chat history for seamless conversation continuity.
+* ✅ Typing animation and loading states to create a natural conversational experience.
 * ✅ Modern ChatGPT-inspired interface** with polished UI/UX.
 
 ---
