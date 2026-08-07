@@ -21,7 +21,7 @@ const [showProfile, setShowProfile] = useState(false);
     const userMessage = prompt;
 
     try {
-        const response = await fetch("http://localhost:8080/api/chat", {
+     const response = await fetch(`${API_URL}/api/chat`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
