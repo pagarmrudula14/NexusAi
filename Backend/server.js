@@ -12,6 +12,18 @@ app.use(cors());
 
 app.use("/api", chatRoutes);
 
+
+app.get("/", (req, res) => {
+    res.send("NexusAI Backend is Running 🚀");
+});
+
+app.get("/api", (req, res) => {
+    res.send("API is Working 🚀");
+});
+
+
+
+
 app.listen(PORT, () => {
     console.log(`server running on ${PORT}`);
     connectDB();
